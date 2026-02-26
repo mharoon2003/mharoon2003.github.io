@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="GitHub Projects - Mohammad Haroon Nadim" />
+    <title>Projects | Mohammad Haroon Nadim</title>
+    
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Background Elements -->
+    <div class="projects-bg">
+      <div class="gradient-orb orb-1"></div>
+      <div class="gradient-orb orb-2"></div>
+      <div class="gradient-orb orb-3"></div>
+    </div>
+
+    <section class="projects-page">
+      <div class="container">
+        <!-- Header -->
+        <div class="page-header">
+          <div class="header-content">
+            <h1 class="page-title">
+              <i class="bx bxl-github"></i>
+              GitHub Projects
+            </h1>
+            <p class="page-subtitle">Latest repositories from my GitHub account</p>
+          </div>
+          <div class="github-stats">
+            <div class="stat-item">
+              <i class="bx bx-code-alt"></i>
+              <span class="stat-label">Repositories</span>
+              <span class="stat-value" id="repo-count">0</span>
+            </div>
+            <div class="stat-item">
+              <i class="bx bx-star"></i>
+              <span class="stat-label">Total Stars</span>
+              <span class="stat-value" id="total-stars">0</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projects Grid -->
+        <div id="all-projects" class="projects-grid">
+          <!-- Loading State -->
+          <div class="loading-container">
+            <div class="loading-spinner"></div>
+            <p class="loading-text">Loading amazing projects...</p>
+          </div>
+        </div>
+
+        <!-- Back Button -->
+        <div class="back-button-wrapper">
+          <a href="index.html" class="back-btn">
+            <i class="bx bx-arrow-back"></i>
+            <span>Back to Portfolio</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 🌗 BB-8 Theme Toggle -->
+    <label class="bb8-toggle">
+      <input class="bb8-toggle__checkbox" type="checkbox" id="bb8Toggle" />
+      <div class="bb8-toggle__container">
+        <div class="bb8-toggle__scenery">
+          <div class="bb8-toggle__star"></div>
+          <div class="bb8-toggle__star"></div>
+          <div class="bb8-toggle__star"></div>
+          <div class="bb8-toggle__star"></div>
+          <div class="bb8-toggle__star"></div>
+          <div class="bb8-toggle__star"></div>
+          <div class="bb8-toggle__star"></div>
+          <div class="tatto-1"></div>
+          <div class="tatto-2"></div>
+          <div class="gomrassen"></div>
+          <div class="hermes"></div>
+          <div class="chenini"></div>
+          <div class="bb8-toggle__cloud"></div>
+          <div class="bb8-toggle__cloud"></div>
+          <div class="bb8-toggle__cloud"></div>
+        </div>
+        <div class="bb8">
+          <div class="bb8__head-container">
+            <div class="bb8__antenna"></div>
+            <div class="bb8__antenna"></div>
+            <div class="bb8__head"></div>
+          </div>
+          <div class="bb8__body"></div>
+        </div>
+        <div class="artificial__hidden">
+          <div class="bb8__shadow"></div>
+        </div>
+      </div>
+    </label>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
